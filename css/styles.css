@@ -336,7 +336,7 @@ header .logo {
 }
 
 .team-list .content {
-  padding-top: 30px;
+  padding-top: auto;
   padding-bottom: 30px;
 }
 
