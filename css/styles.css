@@ -210,9 +210,7 @@ header .logo {
   fill: currentColor;
 }
 
-/*
-index main ==============================================================
-*/
+/***index main ***/
 
 /*hero*/
 
@@ -424,20 +422,20 @@ index main ==============================================================
 /*portfolio main*/
 
 /*buttons*/
-.examples-container {
-  align-items: center;
-}
-
-.examples-container .filter-buttons {
+.examples-container,
+.filter-buttons {
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.examples-container .filter-buttons > li:not(:last-child) {
-  margin: 8px;
+.filter-buttons > li:not(:last-child) {
+  margin-right: 8px;
 }
 
 .filter-buttons button {
+  display: inline-flex;
+  justify-content: center;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -450,7 +448,7 @@ index main ==============================================================
   color: var(--main-color);
   background-color: var(--background-gray-color);
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .filter-buttons button:hover,
@@ -466,7 +464,6 @@ index main ==============================================================
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--list-gap));
   margin-left: calc(-1 * var(--list-gap));
-  margin-bottom: calc(-1 * var(--list-gap));
 }
 
 .example-gallery > li {
@@ -515,9 +512,7 @@ index main ==============================================================
   color: var(--main-gray-color);
 }
 
-/*
-footer ==================================================================
-*/
+/**************footer**************/
 
 .footer {
   font-weight: 400;
